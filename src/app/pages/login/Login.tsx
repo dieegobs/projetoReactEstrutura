@@ -2,7 +2,9 @@
 
 export const Login = () => {
 
+const handleEntrar = () =>{
 
+}
 
     return (
         <div>
@@ -11,6 +13,13 @@ export const Login = () => {
                     <span>Email</span>
                     <input type="text" />
                 </label>
+                <label htmlFor="">
+                    <span>Senha</span>
+                    <input type="password" />
+                </label>
+                <button onClick={handleEntrar} type="button">
+                    Entrar
+                </button>
             </form>
         </div>
     );
